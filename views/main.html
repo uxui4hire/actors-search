@@ -1,0 +1,1 @@
+<h4>Actor</h4> <input type="text" ng-model="selectedActor" placeholder="ex. Brad Pitt" typeahead="address for address in getActors($viewValue)" typeahead-loading="loadingLocations" class="form-control" typeahead-template-url="views/actorTemplate.html" typeahead-on-select="onSelect($item, $model, $label)"> <i ng-show="loadingLocations" class="glyphicon glyphicon-refresh"></i>
